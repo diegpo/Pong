@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-move_bounce_solid(false);
+if (x < -64){
+	game_restart();	
+}
 
-//aumentando a velocidade da bola
-speed = speed + 0.1;
+if (x > 704){
+	game_restart();	
+}

@@ -3,3 +3,6 @@
 if (y < 416){
 	y = y + 8;		
 }
+
+//Tirando do automático
+automatico = false;

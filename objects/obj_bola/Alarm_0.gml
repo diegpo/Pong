@@ -1,8 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (y > 64){
-	y = y - 8;		
-}
-
-//Tirando do automático
-automatico = false;
+speed = 5;

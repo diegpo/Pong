@@ -4,3 +4,5 @@ move_bounce_all(true);
 
 //aumentando a velocidade da bola
 speed = speed + 0.1;
+
+audio_play_sound(snd_boing, 1, false);
